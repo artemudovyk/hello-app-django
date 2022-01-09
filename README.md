@@ -16,6 +16,7 @@ docker-compose down
 ```
 
 Preview:
+![image](https://user-images.githubusercontent.com/58283675/148697662-2a115351-ef62-4434-bd45-f0211fc4a2dd.png)
 
 
 Task description:
