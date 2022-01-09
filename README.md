@@ -1,6 +1,6 @@
 # hello-app-django
 
-How to run app (with docker):
+## How to run app (with docker):
 ```
 git clone https://github.com/artemudovyk/hello-app-django
 cd hello-app-django
@@ -15,7 +15,8 @@ To shutdown:
 docker-compose down
 ```
 
-Preview:
+## Preview:
+
 ![image](https://user-images.githubusercontent.com/58283675/148697676-7b13f5a3-bd5d-4e1b-ace0-6a6a13585c94.png)
 ![image](https://user-images.githubusercontent.com/58283675/148697662-2a115351-ef62-4434-bd45-f0211fc4a2dd.png)
 
