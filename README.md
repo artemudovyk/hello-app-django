@@ -7,7 +7,7 @@ cd hello-app-django
 docker-compose build
 docker-compose up -d
 ```
-And then visit http://localhost:3000/
+And then visit http://localhost:8000/
 
 
 To shutdown:
