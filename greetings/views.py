@@ -17,14 +17,13 @@ def home(request):
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:
-            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
             try:
-                new_greeting = Greeting.objects.create(name=name)
-                messages.success(request, f'Hello {name}!')
+                new_greeting = Greeting.objects.create(email=email)
+                messages.success(request, f'Hello {email}!')
                 return HttpResponseRedirect(reverse('greetings:history'))
             except IntegrityError:
-                messages.error(request, f'Already greeted you {name}!')
-                # messages.add_message(request, 'danger', f'Already greeted you {name}!')
+                messages.error(request, f'Already greeted you {email}!')
                 form = GreetingForm()
                 
             # return HttpResponseRedirect('/greetings')
