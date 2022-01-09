@@ -19,6 +19,9 @@ docker-compose down
 
 ![image](https://user-images.githubusercontent.com/58283675/148697676-7b13f5a3-bd5d-4e1b-ace0-6a6a13585c94.png)
 ![image](https://user-images.githubusercontent.com/58283675/148697662-2a115351-ef62-4434-bd45-f0211fc4a2dd.png)
+![image](https://user-images.githubusercontent.com/58283675/148697808-c5bd158f-366c-4695-a631-ff6b7ca611ec.png)
+![image](https://user-images.githubusercontent.com/58283675/148697812-de9b24ce-81f6-48d0-becf-91307f115f72.png)
+
 
 
 ## Task description:
