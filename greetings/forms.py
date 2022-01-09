@@ -1,4 +1,4 @@
 from django import forms
 
 class GreetingForm(forms.Form):
-    name = forms.CharField(label='Your name', max_length=30)
+    email = forms.EmailField(label='Your email', max_length=40)

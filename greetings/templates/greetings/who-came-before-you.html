@@ -3,6 +3,6 @@
 {% block content %}
 <h1>Who came before you</h1>
 {% for g in greetings %}
-{{ g.name }}{%if not forloop.last%}, {%endif%}
+{{ g.email }}{%if not forloop.last%}, {%endif%}
 {% endfor %}
 {% endblock content %}

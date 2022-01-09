@@ -41,6 +41,7 @@ def home(request):
     
 def greetings_history(request):
     greetings = Greeting.objects.all()
+    print(greetings)
     
     context = {
         'greetings': greetings,
